@@ -22,4 +22,4 @@ npm install, npm run dev
 
 - Ezochetms EZOCH : 0xb7E15E994270A6B251C51B9a7358E10ce0054cd2
 
-*⚠️ ne pas confondre les tokens utilitaires des POL et Sushi authentiques ceux-ci n'existe que pour la bonne œuvre de cette écosystème et n'ont aucune valeur en dehors de celci*
+*⚠️ ne pas confondre les tokens utilitaires des POL et Sushi authentiques ceux-ci n'existe que pour la bonne œuvre de cette écosystème et n'ont aucune valeure en dehors de celui-ci*
