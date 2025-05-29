@@ -4,7 +4,8 @@
 Front-end 100% ethers.js pour l’écosystème NFT Ez-Key sur Polygon. 
 Permet : mint, claim, upgrade, burn, vision admin live, multi-user, visuels dynamiques.
 
-## Structure - Dashboard utilisateur (EzKeyDashboard.tsx) 
+## Structure 
+- Dashboard utilisateur (EzKeyDashboard.tsx) 
 
 - Admin Panel pour setter les images, rewards, cooldown
 -  Leaderboard & multi-holder explorer 
@@ -19,6 +20,6 @@ npm install, npm run dev
 
 - SUSHI utilitaire : 0x668731D0d7341F0163dEA0531d2848751713633D
 
-- EZOCH : 0xb7E15E994270A6B251C51B9a7358E10ce0054cd2
+- Ezochetms EZOCH : 0xb7E15E994270A6B251C51B9a7358E10ce0054cd2
 
 *⚠️ ne pas confondre les tokens utilitaires des POL et Sushi authentiques ceux-ci n'existe que pour la bonne œuvre de cette écosystème et n'ont aucune valeur en dehors de celci*
