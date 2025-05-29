@@ -1,52 +1,54 @@
-# http://www.gnu.org/software/automake
+# Node modules & artifacts
+node_modules/
+dist/
+.build/
+.next/
+out/
+.cache/
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
-.deps/
-.dirstamp
+# Logs & système d'exploitation
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
 
-# http://www.gnu.org/software/autoconf
+# Fichiers d'environnement/local
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
 
-autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.cache
-/config.guess
-/config.h.in
-/config.log
-/config.status
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+# build Vercel/Netlify/CI
+.vercel/
+.netlify/
+.vite/
+coverage/
 
-# https://www.gnu.org/software/libtool/
+# Artifacts ethers/ABI/Remix
+*.abi.js
+*.abi.json~
+/src/abi/temp_abi.json
 
-/ltmain.sh
+# Sortie d’images/prévisualisation
+*.png
+*.jpg
+*.jpeg
 
-# http://www.gnu.org/software/texinfo
+# config VSCode ou IDE
+.vscode/
+.idea/
+*.swp
 
-/texinfo.tex
+# Fichiers du browser/OS
+*.log
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# http://www.gnu.org/software/m4/
-
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
-
-# Generated Makefile
-# (meta build system like autotools,
-# can automatically generate from config.status script
-# (which is called by configure script))
-Makefile
+# Fichiers de cache web
+.cache/
+*.local
