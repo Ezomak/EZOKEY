@@ -1,0 +1,5 @@
+<img
+  src="/favicon.ico.png"
+  alt="Logo Ez-Key"
+  style={{ width: 64, height: 64, margin: "0 auto" }}
+/>;
