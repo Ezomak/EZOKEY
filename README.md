@@ -9,7 +9,8 @@ Permet : mint, claim, upgrade, burn, vision admin live, multi-user, visuels dy
 - Admin Panel pour setter les images, rewards, cooldown
 -  Leaderboard & multi-holder explorer 
 
-## Lance localement npm install npm run dev 
+## Lance localement:
+npm install, npm run dev 
 
 ## Contrats Polygon 
 - Ez-Key NFT : 0xbca0C59Ee51CaA9837EA2f05d541E9936738Ce6b
