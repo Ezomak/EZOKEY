@@ -1,6 +1,8 @@
 # EZOKEY
 
-# Ez-Key Dashboard (Polygon) Front-end 100% ethers.js pour l’écosystème NFT Ez-Key sur Polygon. Permet : mint, claim, upgrade, burn, vision admin live, multi-user, visuels dynamiques.
+# Ez-Key Dashboard (Polygon) 
+Front-end 100% ethers.js pour l’écosystème NFT Ez-Key sur Polygon. 
+Permet : mint, claim, upgrade, burn, vision admin live, multi-user, visuels dynamiques.
 
 ## Structure - Dashboard utilisateur (EzKeyDashboard.tsx) 
 
