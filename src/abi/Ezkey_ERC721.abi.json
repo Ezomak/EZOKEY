@@ -1,0 +1,22 @@
+[
+  { "type": "function", "name": "DEFAULT_ADMIN_ROLE", "inputs": [], "outputs": [{ "type": "bytes32" }], "stateMutability": "view" },
+  { "type": "function", "name": "DEFAULT_FEE_RECIPIENT", "inputs": [], "outputs": [{ "type": "address" }], "stateMutability": "view" },
+  { "type": "function", "name": "approve", "inputs": [{ "name": "to", "type": "address" }, { "name": "tokenId", "type": "uint256" }], "outputs": [], "stateMutability": "nonpayable" },
+  { "type": "function", "name": "balanceOf", "inputs": [{ "name": "owner", "type": "address" }], "outputs": [{ "type": "uint256" }], "stateMutability": "view" },
+  { "type": "function", "name": "burn", "inputs": [{ "name": "tokenId", "type": "uint256" }], "outputs": [], "stateMutability": "nonpayable" },
+  { "type": "function", "name": "mintTo", "inputs": [{ "name": "_to", "type": "address" }, { "name": "_uri", "type": "string" }], "outputs": [{ "type": "uint256" }], "stateMutability": "nonpayable" },
+  { "type": "function", "name": "tokenOfOwnerByIndex", "inputs": [{ "name": "owner", "type": "address" }, { "name": "index", "type": "uint256" }], "outputs": [{ "type": "uint256" }], "stateMutability": "view" },
+  { "type": "function", "name": "holders", "inputs": [{ "name": "", "type": "address" }], "outputs": [
+    { "name": "level", "type": "uint8" },
+    { "name": "lastClaim", "type": "uint256" }
+  ], "stateMutability": "view" },
+  { "type": "function", "name": "tokenURI", "inputs": [{ "name": "_tokenId", "type": "uint256" }], "outputs": [{ "type": "string" }], "stateMutability": "view" },
+  { "type": "function", "name": "claimReward", "inputs": [], "outputs": [], "stateMutability": "nonpayable" },
+  { "type": "function", "name": "upgradeToSilver", "inputs": [], "outputs": [], "stateMutability": "nonpayable" },
+  { "type": "function", "name": "upgradeToGold", "inputs": [], "outputs": [], "stateMutability": "nonpayable" },
+  { "type": "function", "name": "setBronzeURI", "inputs": [{ "name": "uri", "type": "string" }], "outputs": [], "stateMutability": "nonpayable" },
+  { "type": "function", "name": "setSilverURI", "inputs": [{ "name": "uri", "type": "string" }], "outputs": [], "stateMutability": "nonpayable" },
+  { "type": "function", "name": "setGoldURI", "inputs": [{ "name": "uri", "type": "string" }], "outputs": [], "stateMutability": "nonpayable" },
+  { "type": "function", "name": "burnKeyForEzoch", "inputs": [{ "name": "tokenId", "type": "uint256" }], "outputs": [], "stateMutability": "nonpayable" }
+  // ...complète au besoin avec les autres fonctions ERC721 standard (approve, transferFrom, ownerOf, name, symbol, etc.)
+]
