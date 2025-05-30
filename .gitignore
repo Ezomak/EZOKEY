@@ -1,54 +1,41 @@
-# Node modules & artifacts
-node_modules/
-dist/
-.build/
-.next/
-out/
-.cache/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Logs & système d'exploitation
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-.DS_Store
-Thumbs.db
+.pnpm-debug.log*
 
-# Fichiers d'environnement/local
-.env
-.env.local
-.env.development.local
-.env.production.local
-.env.test.local
+# env files (can opt-in for committing if needed)
+.env*
 
-# build Vercel/Netlify/CI
-.vercel/
-.netlify/
-.vite/
-coverage/
+# vercel
+.vercel
 
-# Artifacts ethers/ABI/Remix
-*.abi.js
-*.abi.json~
-/src/abi/temp_abi.json
-
-# Sortie d’images/prévisualisation
-*.png
-*.jpg
-*.jpeg
-
-# config VSCode ou IDE
-.vscode/
-.idea/
-*.swp
-
-# Fichiers du browser/OS
-*.log
-*.lock
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
-# Fichiers de cache web
-.cache/
-*.local
+# typescript
+*.tsbuildinfo
+next-env.d.ts
